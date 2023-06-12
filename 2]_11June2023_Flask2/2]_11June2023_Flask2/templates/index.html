@@ -1,0 +1,34 @@
+<html>
+    <head>
+        Calci App
+    </head>
+
+<link rel="stylesheet" href="static/css/style.css">
+
+    <body>
+        <div>
+        <h1 style="text-align: center; color: blueviolet;"> Calculator</h1>
+
+        <div class="form">
+            <form action="/math" method="POST">
+            
+            <label> Chose a Mathematical Operation</label>
+            
+            <select id="operation" name="operation">
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+            
+</div>
+<br>
+<label> Enter first number </label><input type="number" name="num1" id="num1"> <br> <br>
+<label> Enter second number </label><input type="number" name="num2" id="num2">
+</div>
+<br>
+<br>
+<input type="submit" value="calculate">
+</form>
+    </body>
+</html>
